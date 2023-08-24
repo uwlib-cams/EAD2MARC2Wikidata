@@ -4,7 +4,7 @@ Explains the "misc" directory.
 
 Original MARC records: LaborArchivesMARCRecordsBatch.xml
 Lookup file (for matching oclc numbers and extracting Archives West URLs, Wikidata identifiers, and 758$a values): table1.xml
-Compare input original MARC records (LaborArchivesMARCRecordsBatch.xml) and lookup file (table1.xml): analyzeUnput.xsl
+Compare input original MARC records (LaborArchivesMARCRecordsBatch.xml) and lookup file (table1.xml): analyzeInput.xsl
 Main XSLT script: inserts2.xsl:
     inserts 758 and 856 fields into original MARC:
     input files: LaborArchivesMARCRecordsBatch.xml; table1.xml
